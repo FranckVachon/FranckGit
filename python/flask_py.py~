@@ -1,0 +1,76 @@
+# from flask import Flask
+# app = Flask(__name__)
+
+#You can setup mutiple "routes", e.g. addresses at which flask will route traffic to accomplish certain tasks. You can have multiple tasks assigned to different URL. This is actually pretty awesome.
+# @app.route('/')
+# def hello_world():
+# 	return 'Hello world'
+
+# @app.route("/fetcher")
+# def fetcher():
+# 	return "this is the fetcher"
+
+
+# if __name__ == '__main__':
+# 	app.run()
+
+#Now for the real thing - how to make Flask run my python script whenever the correct route is requested? From SO: http://stackoverflow.com/questions/10903615/create-a-hyperlink-or-button-that-executes-a-python-script-and-then-redirects#_=_
+from flask import Flask
+from flask import render_template, abort
+from flask_test_v15 import main
+app = Flask(__name__)
+app.debug = True
+
+def run_script():
+	answer = main()
+	print main
+    
+if __name__ == "__main__":
+    app.run()
+
+
+
+
+
+
+
+
+
+
+
+ ############## Original, unedited code
+"""
+import threading
+import subprocess
+import os
+import sys
+from flask import Flask
+from flask import render_template, abort
+app = Flask(__name__)
+app.debug = True
+
+def run_script():
+    theproc = subprocess.Popen([sys.executable, "run_me.py"])
+    theproc.communicate()
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/generate')
+def generate():
+    threading.Thread(target=lambda: run_script()).start()
+    return render_template('processing.html')
+
+@app.route('/is_done')
+def is_done():
+    hfile = "templates\\itworked.html"
+    if os.path.isfile(hfile):
+        return render_template('itworked.html')
+    else:
+        abort(404)
+
+if __name__ == "__main__":
+    app.run()
+
+ """

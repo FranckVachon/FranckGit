@@ -1,0 +1,87 @@
+[
+ {
+  "_tags": [],
+  "_status": "submitted_via_web",
+  "_id": 1787962,
+  "TimeStartRecorded": "2016-03-14T20:06:05.000-04:00",
+  "meta/instanceID": "uuid:49fa0ce4-7397-422d-b5bd-a3cfb736a9ea",
+  "REPEAT_C": [
+   {
+    "REPEAT_C/ENROL": "2",
+    "REPEAT_C/XAgeCalc": "16.26",
+    "REPEAT_C/HEIGHT": "87",
+    "REPEAT_C/WEIGHT": "21",
+    "REPEAT_C/SEX": "m",
+    "REPEAT_C/NAME": "Abraham",
+    "REPEAT_C/ID": "1",
+    "REPEAT_C/XBIRTHDATE": "2014-11-05",
+    "REPEAT_C/MUAC": "12.7"
+   },
+   {
+    "REPEAT_C/ENROL": "2",
+    "REPEAT_C/XAgeCalc": "24.31",
+    "REPEAT_C/HEIGHT": "101",
+    "REPEAT_C/WEIGHT": "28",
+    "REPEAT_C/SEX": "m",
+    "REPEAT_C/NAME": "Jorge",
+    "REPEAT_C/ID": "2",
+    "REPEAT_C/XBIRTHDATE": "2014-03-05",
+    "REPEAT_C/MUAC": "13.8"
+   }
+  ],
+  "_notes": [],
+  "_submitted_by": null,
+  "GRP_A/CAMP": "AAA",
+  "_xform_id_string": "d3-sample",
+  "GRP_A/SECTION": "6",
+  "DeviceID": "enketo.kobotoolbox.org:bAObW8mS5pPEavB8",
+  "GRP_A/SURVDATE": "2016-03-14",
+  "_uuid": "49fa0ce4-7397-422d-b5bd-a3cfb736a9ea",
+  "formhub/uuid": "838770ef8f4943a3b1f8c366039796f3",
+  "_submission_time": "2016-03-15T00:06:46",
+  "_bamboo_dataset_id": "",
+  "_attachments": [],
+  "TimeEndRecorded": "2016-03-14T20:07:12.000-04:00",
+  "_geolocation": [
+   null,
+   null
+  ]
+ },
+ {
+  "_tags": [],
+  "_status": "submitted_via_web",
+  "_id": 1787963,
+  "TimeStartRecorded": "2016-03-14T20:07:13.000-04:00",
+  "meta/instanceID": "uuid:1ebb2e85-2246-4474-8a7d-3e15d67d789f",
+  "REPEAT_C": [
+   {
+    "REPEAT_C/ENROL": "1",
+    "REPEAT_C/XAgeCalc": "11.56",
+    "REPEAT_C/HEIGHT": "76",
+    "REPEAT_C/WEIGHT": "12",
+    "REPEAT_C/SEX": "f",
+    "REPEAT_C/NAME": "Billette",
+    "REPEAT_C/ID": "1",
+    "REPEAT_C/XBIRTHDATE": "2015-03-28",
+    "REPEAT_C/MUAC": "13"
+   }
+  ],
+  "_notes": [],
+  "_submitted_by": null,
+  "GRP_A/CAMP": "AAA",
+  "_xform_id_string": "d3-sample",
+  "GRP_A/SECTION": "12",
+  "DeviceID": "enketo.kobotoolbox.org:bAObW8mS5pPEavB8",
+  "GRP_A/SURVDATE": "2016-03-14",
+  "_uuid": "1ebb2e85-2246-4474-8a7d-3e15d67d789f",
+  "formhub/uuid": "838770ef8f4943a3b1f8c366039796f3",
+  "_submission_time": "2016-03-15T00:07:16",
+  "_bamboo_dataset_id": "",
+  "_attachments": [],
+  "TimeEndRecorded": "2016-03-14T20:07:43.000-04:00",
+  "_geolocation": [
+   null,
+   null
+  ]
+ }
+]

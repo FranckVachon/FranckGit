@@ -1,0 +1,5 @@
+ROOTURL,https://kc.humanitarianresponse.info/api/v1/
+USER,franck26
+PASS,franv13007
+FILE_TO_WRITE,data.csv
+FORM_IDS,54295
